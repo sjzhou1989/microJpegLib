@@ -206,9 +206,9 @@ int readMarkers(j_decompress_ptr cinfo)
 	switch(cinfo->unread_marker)
 	{
 		case M_SOI:
-			{
-				break;
-			}
+		{
+			break;
+		}
 		case M_EOI:
 		{
 			cinfo->unread_marker = 0;
